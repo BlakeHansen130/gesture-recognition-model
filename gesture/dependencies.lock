@@ -1,0 +1,21 @@
+dependencies:
+  espressif/esp-dl:
+    dependencies:
+    - name: idf
+      version: '>=5.3'
+    source:
+      path: /home/dahao/esp/esp-dl/esp-dl
+      type: local
+    targets:
+    - esp32s3
+    - esp32p4
+    version: 3.0.0~1-rc.1
+  idf:
+    source:
+      type: idf
+    version: 5.3.1
+direct_dependencies:
+- espressif/esp-dl
+manifest_hash: faa9f782ca7f421f009ad1aaee14e18e4f43667a2ca1ed29c2844b0a9c72a9c6
+target: esp32s3
+version: 2.0.0
